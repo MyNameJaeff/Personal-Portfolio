@@ -32,7 +32,7 @@ function Main() {
                     phone="+46 073 99 59 784"
                     location="Stockholm, Sweden"
                     github="https://github.com/MyNameJaeff"
-                    linkedin="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+                    linkedin="https://www.linkedin.com/in/fredrik-andersson-2006412aa/"
                     discord="http://discordapp.com/users/319445588493991938"
                     spotify="https://open.spotify.com/user/fredrik2004" />
             </div>

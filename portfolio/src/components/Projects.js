@@ -11,7 +11,7 @@ function Projects() {
             <div className="projectScreen">
                 <div className="projectContent">
                     <div className="projectText">
-                        <p className="project">PLEASE SELECT PROJECT ...</p>
+                        <p className="project">PLEASE SELECT A PROJECT...</p>
                     </div>
                 </div>
             </div>

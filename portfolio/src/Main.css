@@ -4,10 +4,12 @@
     font-family: JetBrains Mono;
     color: white;
 }
-html{
-    background: #2F2B2B;
+
+html {
+    background: #353131;
     height: fit-content;
 }
+
 a {
     text-decoration: none;
     color: white;
@@ -151,24 +153,27 @@ pre {
 }
 
 /* Projects styling */
-.projectsDiv{
+.projectsDiv {
     margin-top: 80vh;
     height: 100vh;
     width: 100vw;
     display: flex;
 }
-.projects{
+
+.projects {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.projectScreen{
+
+.projectScreen {
     width: 55vw;
     height: 92vh;
     background: #CCC7B4;
     margin: 2vw;
 }
-.projectContent{
+
+.projectContent {
     margin: 3%;
     height: 84%;
     border: 20px solid #AFAB9C;
@@ -177,7 +182,8 @@ pre {
     justify-content: center;
     align-items: center;
 }
-.projectText{
+
+.projectText {
     width: 94%;
     height: 92%;
     background: #212121;
@@ -185,67 +191,120 @@ pre {
     justify-content: center;
     align-items: center;
 }
-.projectText > p {
+
+.projectText>p {
     font-size: 2.5em;
 }
 
-.projectSelection{
+.projectSelection {
     margin: 4vw;
     margin-top: 15vh;
     background: #393939;
     width: 30vw;
     height: 86vh;
 }
-.projectSelectionContent{
-    background-color:#000;
+
+.projectSelectionContent {
+    background-color: #000;
     margin: 2vw;
     height: 90%;
 }
-.projectSelectionText{
+
+.projectSelectionText {
     padding: 5% 8%;
     height: 94%;
 }
-.projectSelectionText > h2{
+
+.projectSelectionText>h2 {
     color: #57DC74;
     border-bottom: 2px solid #57DC74;
     font-size: 2em;
     margin-bottom: 2vh;
 }
-.projectSelectionText > ul{
+
+.projectSelectionText>ul {
     margin-left: 2vw;
     margin-top: 1vh;
     height: 88%;
     overflow: scroll;
-    list-style-position: inside;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+
+    /* REMOVES THE SCROLLBAR, MIGHT ADD MIGHT NOT */
+    /* list-style-position: inside; 
+    -ms-overflow-style: none;
+    scrollbar-width: none; */
 }
-.projectSelectionText > ul > li{
+
+.projectSelectionText>ul>li {
     color: #57DC74;
     font-size: 1.5em;
 }
-.projectSelectionText > ul > li:hover{
+.projectSelectionText>ul>li>a{
+    color: #57DC74;
+}
+
+.projectSelectionText>ul>li:hover {
     cursor: pointer;
     color: #40a155;
 }
-.projectSelectionText > ul > li:not(:first-child){
+
+.projectSelectionText>ul>li:not(:first-child) {
     margin: 6vh 0px;
 }
 
+.projectTextContent {
+    height: 75%;
+    overflow: scroll;
+
+    /* REMOVES THE SCROLLBAR, MIGHT ADD MIGHT NOT */
+    /* list-style-position: inside;
+    -ms-overflow-style: none;
+    scrollbar-width: none; */
+}
+
+.projectTitle {
+    border-bottom: 2px solid white;
+    margin-bottom: 2%;
+    color: lightblue;
+}
+.projectTitle:hover {
+    cursor: pointer;
+    color: #40a155;
+}
+
 /* About me styling */
-.aboutDiv{
+.aboutDiv {
     margin-top: 50vh;
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: flex-start;
 }
-.aboutMe{
+
+.aboutMe {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutMeImg {
+    width: 30vw;
+    padding: 4vw;
+}
+
+.aboutMeImg>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.aboutMeText {
     padding: 4vw;
     line-height: 5vh;
-    width: 45vw;
+    width: 52vw;
 }
-.aboutMe > h2{
+
+.aboutMeText>h2 {
     color: #57DC74;
     width: 15vw;
     border-bottom: 2px solid #57DC74;
@@ -253,8 +312,21 @@ pre {
     margin-bottom: 2vh;
 }
 
+.aboutMeText>p {
+    font-size: 1.2em;
+    margin-bottom: 2vh;
+}
+
+.aboutMeText>p:nth-child(2) {
+    width: 90%;
+}
+
+.aboutMeText>p:nth-child(4) {
+    width: 100%;
+}
+
 /* Contact me styling */
-.contactDiv{
+.contactDiv {
     width: 100%;
     height: 20vh;
     margin-top: 20vh;
@@ -263,49 +335,59 @@ pre {
     justify-content: space-around;
     align-items: center;
 }
-.contact{
+
+.contact {
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
-.contact > div{
+
+.contact>div {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100%;
 }
-.contact > div > h2{
+
+.contact>div>h2 {
     width: fit-content;
     border-bottom: 2px solid white;
 }
-.contact > div > div{
+
+.contact>div>div {
     margin-top: 1vh;
 }
-.contact > div:not(:nth-child(2)){
+
+.contact>div:not(:nth-child(2)) {
     margin-top: 2vh;
 }
-.contact > div:nth-child(2){
+
+.contact>div:nth-child(2) {
     margin-bottom: 2vh;
 }
-.contact > div:not(:nth-child(2)) > div{
+
+.contact>div:not(:nth-child(2))>div {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-.contact > div:nth-child(2) > div{
+.contact>div:nth-child(2)>div {
     width: 20vw;
     display: flex;
     justify-content: space-around;
 }
-.aroundTheWebItem{
+
+.aroundTheWebItem {
     border-radius: 100%;
 }
-.aroundTheWebItem > a{
+
+.aroundTheWebItem>a {
     width: fit-content;
     height: 100%;
 }
-.aroundTheWebItem:hover{
+
+.aroundTheWebItem:hover {
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.25);
 }
