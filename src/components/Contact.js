@@ -32,6 +32,7 @@ function Contact(props) {
                         <a href={props.spotify} target="_blank" rel="noreferrer"><img src={spotifyLogo} alt="spotify logo"/></a>
                     </div>
                 </div>
+                <a className="copyright" href="https://personal-portfolio-three-henna.vercel.app"><span className="copyIcon">©</span> https://personal-portfolio-three-henna.vercel.app 2024 </a>
             </div>
             <div className="contactInfo">
                 <h2>Contact</h2>

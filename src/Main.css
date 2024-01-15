@@ -1,5 +1,4 @@
 /* Lazy done styling, works atleast */
-
 * {
     margin: 0;
     padding: 0;
@@ -241,11 +240,13 @@ pre {
     color: #57DC74;
     font-size: 1.5em;
 }
-.projectSelectionText>ul>li>a{
+
+.projectSelectionText>ul>li>a {
     color: #57DC74;
 }
 
-.projectSelectionText>ul>li:hover, .projectSelectionText>ul>li>a:hover {
+.projectSelectionText>ul>li:hover,
+.projectSelectionText>ul>li>a:hover {
     cursor: pointer;
     color: #40a155;
 }
@@ -269,15 +270,18 @@ pre {
     margin-bottom: 2%;
     color: lightblue;
 }
+
 .projectTitle:hover {
     cursor: pointer;
     color: #40a155;
 }
-.listItemNumber{
+
+.listItemNumber {
     color: #c3ffd0;
     margin-right: 1vw;
 }
-li{
+
+li {
     display: flex;
     justify-content: space-between;
 }
@@ -401,4 +405,23 @@ li{
 .aroundTheWebItem:hover {
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.25);
+}
+
+.copyright {
+    letter-spacing: 0;
+    margin-top: 6.2%;
+    position: absolute;
+}
+
+.copyright:hover{
+    cursor: pointer;
+    color: #40a155;
+}
+
+.copyright:active{
+    color: #57DC74;
+}
+
+.copyIcon{
+    font-family: Arial, Helvetica, sans-serif;
 }
