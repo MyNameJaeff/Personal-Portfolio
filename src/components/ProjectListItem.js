@@ -15,6 +15,7 @@ function ProjectListItem(props) {
             project.style.width = "100%";
             project.style.height = "100%";
             project.style.padding = "5%";
+            project.style.flexDirection = "column";
             project.innerHTML = `
             <a href="${list[props.number - 1].link}" target="_blank"><h3 class="projectTitle">${largeFirstLetter}</h3></a>
             <p class="projectTextContent"> ${list[props.number - 1].text}

@@ -6,12 +6,18 @@ import ProjectList from "./Projects.json";
 function Projects() { 
     let list = ProjectList.projects;
 
+
     return (
         <div className="projects">
             <div className="projectScreen">
                 <div className="projectContent">
                     <div className="projectText">
-                        <p className="project">PLEASE SELECT A PROJECT...</p>
+                        <div className="project">
+                            <p>PLEASE SELECT A PROJECT</p>
+                            <span>.</span>
+                            <span>.</span>
+                            <span>.</span>
+                        </div>
                     </div>
                 </div>
             </div>
