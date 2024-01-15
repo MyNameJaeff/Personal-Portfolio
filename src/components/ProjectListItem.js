@@ -23,11 +23,11 @@ function ProjectListItem(props) {
     }
     if (props.number !== 0) {
         return (
-            <li onClick={handleClick} className={props.name + props.number}>{largeFirstLetter + " " + props.number}</li>
+            <li onClick={handleClick} className={props.name + props.number}>{largeFirstLetter + " "}<span className="listItemNumber">{props.number}</span></li>
         );
     } else {
         return (
-            <li className={props.name + props.number}><a href={list[list.length - 1].link} target="_blank">{largeFirstLetter}</a></li>
+            <li className={props.name + props.number}><a href={list[list.length - 1].link} rel="noreferrer" target="_blank">{largeFirstLetter}</a><span className="listItemNumber">*</span></li>
         );
     }
 }

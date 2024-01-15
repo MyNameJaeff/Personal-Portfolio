@@ -1,3 +1,5 @@
+/* Lazy done styling, works atleast */
+
 * {
     margin: 0;
     padding: 0;
@@ -193,7 +195,8 @@ pre {
 }
 
 .projectText>p {
-    font-size: 2.5em;
+    font-size: 2.2em;
+    line-height: 1.5em;
 }
 
 .projectSelection {
@@ -242,7 +245,7 @@ pre {
     color: #57DC74;
 }
 
-.projectSelectionText>ul>li:hover {
+.projectSelectionText>ul>li:hover, .projectSelectionText>ul>li>a:hover {
     cursor: pointer;
     color: #40a155;
 }
@@ -269,6 +272,14 @@ pre {
 .projectTitle:hover {
     cursor: pointer;
     color: #40a155;
+}
+.listItemNumber{
+    color: #c3ffd0;
+    margin-right: 1vw;
+}
+li{
+    display: flex;
+    justify-content: space-between;
 }
 
 /* About me styling */
