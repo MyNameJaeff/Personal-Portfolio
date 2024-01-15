@@ -9,6 +9,7 @@ import MonitorButton from "./components/MonitorButton.js";
 import Projects from "./components/Projects.js";
 import AboutMe from "./components/AboutMe.js";
 import Contact from "./components/Contact.js";
+import StickyArrow from "./components/StickyArrow.js";
 
 function Main() {
     return (
@@ -16,12 +17,14 @@ function Main() {
             {/* <DarkAndLight /> */}
             <Analytics />
             <link href="https://fonts.cdnfonts.com/css/jetbrains-mono" rel="stylesheet"></link>
+
             <NameAndTitle name="Fredrik Andersson" title="Student at NTI TE4" />
             <div className="monitorButtons">
                 <MonitorButton id="about" text="about" />
                 <MonitorButton id="projects" text="projects" />
                 <MonitorButton id="contact" text="contact" />
             </div>
+            <StickyArrow id="top" />
             <div className="projectsDiv" id="projects">
                 <Projects />
             </div>

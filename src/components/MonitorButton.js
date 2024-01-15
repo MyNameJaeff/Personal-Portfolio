@@ -3,6 +3,7 @@ import baseOfMonitor from "./images/BaseOfMonitor.png";
 
 function MonitorButton(props) { // props: id, text
     const largeFirstLetter = (props.text).charAt(0).toUpperCase() + (props.text).slice(1);
+    
     return (
         <a href={`#${props.id}`} className="monitorButton">
             <div className="monitorFrame">
