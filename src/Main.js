@@ -16,7 +16,7 @@ function Main() {
             {/* <DarkAndLight /> */}
             <Analytics />
             <link href="https://fonts.cdnfonts.com/css/jetbrains-mono" rel="stylesheet"></link>
-            <NameAndTitle name="Fredrik Andersson" title="I dont know my title" />
+            <NameAndTitle name="Fredrik Andersson" title="Student at NTI TE4" />
             <div className="monitorButtons">
                 <MonitorButton id="about" text="about" />
                 <MonitorButton id="projects" text="projects" />
