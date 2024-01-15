@@ -413,12 +413,12 @@ li {
     position: absolute;
 }
 
-.copyright:hover{
+.copyright:hover, .special:hover{
     cursor: pointer;
     color: #40a155;
 }
 
-.copyright:active{
+.copyright:active, .special:active{
     color: #57DC74;
 }
 

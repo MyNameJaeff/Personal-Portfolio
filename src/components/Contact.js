@@ -38,10 +38,10 @@ function Contact(props) {
                 <h2>Contact</h2>
                 <div className="contactInfo">
                     <div className="contactInfoItem">
-                        <a href={`mailto:${props.email}`} target="_blank" rel="noreferrer">{props.email}</a>
+                        <a href={`mailto:${props.email}`} className="special" target="_blank" rel="noreferrer">{props.email}</a>
                     </div>
                     <div className="contactInfoItem">
-                        <a href={`tel:${props.phone}`} target="_blank" rel="noreferrer">{props.phone}</a>
+                        <a href={`tel:${props.phone}`} className="special" target="_blank" rel="noreferrer">{props.phone}</a>
                     </div>
                 </div>
             </div>
