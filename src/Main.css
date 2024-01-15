@@ -24,9 +24,10 @@ main {
 
     font-weight: 500;
     line-height: normal;
-    letter-spacing: 2px;
+    letter-spacing: 0.2vw;
 }
 
+/* 
 .themeButtons {
     overflow: visible;
     position: absolute;
@@ -36,21 +37,23 @@ main {
 }
 
 .themeButtons>div {
-    /* Make the buttons sticky (NOT WORKING RIGHT NOW) */
     overflow: visible;
     position: sticky;
-    top: 20px;
+    top: 20vh;
+} */
+#phone{
+    display: none;
 }
-
 /* Name and title styling */
 .nameAndTitle {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 5vh;
-    padding: 1% 2%;
+    padding: 1vw 2vw;
     width: fit-content;
-    border: 1px solid rgba(255, 255, 255, 0.73);
+    border: 0.2vw solid rgba(255, 255, 255, 0.73);
+    font-size: 2vh;
 }
 
 /* Monitor button styling */
@@ -60,7 +63,7 @@ pre {
 
 .monitorButtons {
     margin-top: 75vh;
-    width: 90%;
+    width: 90vw;
     display: flex;
     justify-content: space-around;
     margin-bottom: 2vw;
@@ -68,15 +71,16 @@ pre {
 
 .monitorButton {
     display: inline-block;
-    width: 21vw;
+    width: 23vw;
 }
 
 .monitorFrame {
     background: #CBCBCB;
-    border-radius: 2px;
-    border-top: 1px solid #F4F4F4;
-    border-right: 1px solid #F4F4F4;
-    border-left: 1px solid #F4F4F4;
+    border-radius: 0.1vw;
+    border-top: 0.1vw solid #F4F4F4;
+    border-right: 0.1vw solid #F4F4F4;
+    border-left: 0.1vw solid #F4F4F4;
+    font-size: 2vh;
 }
 
 .monitorScreen {
@@ -92,11 +96,11 @@ pre {
 
 .monitorContent {
     background: #242424;
-    padding: 2%;
-    border-top: 3px solid #969696;
-    border-right: 1px solid #969696;
-    border-left: 1px solid #969696;
-    letter-spacing: 0px;
+    padding: 1vw;
+    border-top: 0.45vw solid #969696;
+    border-right: 0.3vw solid #969696;
+    border-left: 0.3vw solid #969696;
+    letter-spacing: 0vw;
 }
 
 .monitorText,
@@ -105,6 +109,7 @@ pre {
 .blueText,
 .lightPurpleText {
     background: rgba(0, 0, 0, 0);
+    font-size: 1.8vh;
 }
 
 .monitorText {
@@ -137,8 +142,8 @@ pre {
 .monitorStandPole {
     width: 2.5vw;
     height: 6vh;
-    border-right: 1px solid #000;
-    border-left: 1px solid #000;
+    border-right: 0.1vw solid #000;
+    border-left: 0.1vw solid #000;
     background: #3D3D3D;
     z-index: 1;
 }
@@ -149,8 +154,8 @@ pre {
     margin-top: 8vh;
 }
 
-.monitorbase>svg {
-    width: 100%;
+.monitorbase>img {
+    width: 10vw;
 }
 
 /* Projects styling */
@@ -177,7 +182,7 @@ pre {
 .projectContent {
     margin: 3%;
     height: 84%;
-    border: 20px solid #AFAB9C;
+    border: 1.5vw solid #AFAB9C;
     background: #141414;
     display: flex;
     justify-content: center;
@@ -194,7 +199,7 @@ pre {
 }
 
 .projectText>p {
-    font-size: 2.2em;
+    font-size: 3.6vh;
     line-height: 1.5em;
 }
 
@@ -219,8 +224,8 @@ pre {
 
 .projectSelectionText>h2 {
     color: #57DC74;
-    border-bottom: 2px solid #57DC74;
-    font-size: 2em;
+    border-bottom: 0.3vw solid #57DC74;
+    font-size: 3vh;
     margin-bottom: 2vh;
 }
 
@@ -238,7 +243,7 @@ pre {
 
 .projectSelectionText>ul>li {
     color: #57DC74;
-    font-size: 1.5em;
+    font-size: 2.5vh;
 }
 
 .projectSelectionText>ul>li>a {
@@ -252,7 +257,7 @@ pre {
 }
 
 .projectSelectionText>ul>li:not(:first-child) {
-    margin: 6vh 0px;
+    margin: 6vh 0vw;
 }
 
 .projectTextContent {
@@ -266,7 +271,7 @@ pre {
 }
 
 .projectTitle {
-    border-bottom: 2px solid white;
+    border-bottom: 0.3vw solid white;
     margin-bottom: 2%;
     color: lightblue;
 }
@@ -322,13 +327,13 @@ li {
 .aboutMeText>h2 {
     color: #57DC74;
     width: 15vw;
-    border-bottom: 2px solid #57DC74;
-    font-size: 2em;
+    border-bottom: 0.3vw solid #57DC74;
+    font-size: 3.2vh;
     margin-bottom: 2vh;
 }
 
 .aboutMeText>p {
-    font-size: 1.2em;
+    font-size: 2.5vh;
     margin-bottom: 2vh;
 }
 
@@ -349,6 +354,7 @@ li {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 2vh;
 }
 
 .contact {
@@ -366,7 +372,7 @@ li {
 
 .contact>div>h2 {
     width: fit-content;
-    border-bottom: 2px solid white;
+    border-bottom: 0.2vw solid white;
 }
 
 .contact>div>div {
@@ -400,6 +406,13 @@ li {
 .aroundTheWebItem>a {
     width: fit-content;
     height: 100%;
+    width: 10vw;
+}
+
+.aroundTheWebItem>a>img {
+    width: 3vw;
+    height: 3vw;
+    object-fit: cover;
 }
 
 .aroundTheWebItem:hover {
@@ -413,15 +426,26 @@ li {
     position: absolute;
 }
 
-.copyright:hover, .special:hover{
+.copyright:hover,
+.special:hover {
     cursor: pointer;
     color: #40a155;
 }
 
-.copyright:active, .special:active{
+.copyright:active,
+.special:active {
     color: #57DC74;
 }
 
-.copyIcon{
+.copyIcon {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 900px) {
+    main {
+        display: none;
+    }
+    #phone{
+        display: inline-block;
+    }
 }
