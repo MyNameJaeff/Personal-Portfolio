@@ -1,4 +1,5 @@
 import React from "react";
+import { Analytics } from '@vercel/analytics/react';
 
 import "./Main.css";
 
@@ -13,6 +14,7 @@ function Main() {
     return (
         <main>
             {/* <DarkAndLight /> */}
+            <Analytics />
             <link href="https://fonts.cdnfonts.com/css/jetbrains-mono" rel="stylesheet"></link>
             <NameAndTitle name="Fredrik Andersson" title="I dont know my title" />
             <div className="monitorButtons">
