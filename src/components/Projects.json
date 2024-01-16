@@ -19,7 +19,7 @@
       "text": "This is the project you are currently looking at. I created this website to showcase my projects and to give you some information about myself, including contact information for questions surrounding my works. I used the framework React to create the website, and designed it in Figma. The code isn't beautiful, but it works.",
       "number": 3,
       "link": "https://github.com/MyNameJaeff/Personal-Portfolio",
-      "images": ["personalPortfolio.png"]
+      "images": ["personalportfolio.png"]
     },
     {
       "name": "Javascript Övning",
