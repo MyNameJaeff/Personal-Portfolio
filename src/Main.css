@@ -10,6 +10,8 @@ html {
     background: #353131;
     height: fit-content;
     scroll-behavior: smooth;
+
+    overflow-x: hidden;
 }
 
 a {
@@ -26,6 +28,7 @@ main {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.2vw;
+    width: 100vw;
 }
 
 #phone {
@@ -246,11 +249,7 @@ pre {
     margin-top: 1vh;
     height: 88%;
     overflow: scroll;
-
-    /* REMOVES THE SCROLLBAR, MIGHT ADD MIGHT NOT */
-    /* list-style-position: inside; 
-    -ms-overflow-style: none;
-    scrollbar-width: none; */
+    overflow-x: hidden;
 }
 
 .projectSelectionText>ul>li {
@@ -398,7 +397,7 @@ li {
 
 /* Contact me styling */
 .contactDiv {
-    width: 100%;
+    width: 100vw;
     height: 20vh;
     margin-top: 20vh;
     background: #6D5C9F;
@@ -409,7 +408,7 @@ li {
 }
 
 .contact {
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-around;
 }

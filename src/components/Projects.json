@@ -57,6 +57,13 @@
       "images": ["slApiSak.png", "slApiSak2.png"]
     },
     {
+      "name": "Turist-hemsida",
+      "text": "This was a project to create a website for a specific city to try and influence people to want to travel to said city by showing them images of things found in the city, the city's history and then it was also required to have a booking and contact page",
+      "number": 9,
+      "link": "https://github.com/MyNameJaeff/turist-hemsida-individuell",
+      "images": ["turistHemsida.png", "turistHemsida2.png", "turistHemsida3.png", "turistHemsida4.png", "turistHemsida5.png"]
+    },
+    {
       "name": "All projects",
       "text": "All projects",
       "number": 0,
