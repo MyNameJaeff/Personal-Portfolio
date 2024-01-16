@@ -28,25 +28,27 @@ main {
     letter-spacing: 0.2vw;
 }
 
-#phone{
+#phone {
     display: none;
 }
 
 /* Up arrow styling */
-.stickyArrow{
+.stickyArrow {
     position: sticky;
     width: 100vw;
     top: 0vw;
     right: 1vw;
     width: 5vw;
 }
-.upArrow{
+
+.upArrow {
     position: absolute;
     top: 1vh;
     left: 48vw;
     width: 4vw;
 }
-.upArrow > img{
+
+.upArrow>img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -270,16 +272,6 @@ pre {
     margin: 6vh 0vw;
 }
 
-.projectTextContent {
-    height: 75%;
-    overflow: scroll;
-
-    /* REMOVES THE SCROLLBAR, MIGHT ADD MIGHT NOT */
-    /* list-style-position: inside;
-    -ms-overflow-style: none;
-    scrollbar-width: none; */
-}
-
 .projectTitle {
     border-bottom: 0.3vw solid white;
     margin-bottom: 2%;
@@ -303,13 +295,15 @@ li {
 
 @keyframes blink {
     0% {
-      opacity: 0;
+        opacity: 0;
     }
+
     20% {
-      opacity: 1;
+        opacity: 1;
     }
+
     100% {
-      opacity: 0;
+        opacity: 0;
     }
 }
 
@@ -332,6 +326,19 @@ li {
 
 .project span:nth-child(4) {
     animation-delay: 1.2s;
+}
+
+.projectImages {
+    width: 90%;
+    margin-left: 2.5vw;
+    margin-top: 2vh;
+}
+
+.projectImage {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    margin-top: 1vh;
 }
 
 
@@ -489,7 +496,8 @@ li {
     main {
         display: none;
     }
-    #phone{
+
+    #phone {
         display: inline-block;
     }
 }
