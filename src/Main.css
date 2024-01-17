@@ -252,16 +252,22 @@ pre {
     overflow-x: hidden;
 }
 
+.projectSelectionText>ul>li>p,
 .projectSelectionText>ul>li {
     color: #57DC74;
     font-size: 2.5vh;
+}
+
+.projectSelectionText>ul>li>span {
+    display: flex;
+    align-items: center;
 }
 
 .projectSelectionText>ul>li>a {
     color: #57DC74;
 }
 
-.projectSelectionText>ul>li:hover,
+.projectSelectionText>ul>li>p:hover,
 .projectSelectionText>ul>li>a:hover {
     cursor: pointer;
     color: #40a155;
@@ -340,6 +346,10 @@ li {
     margin-top: 1vh;
 }
 
+.projectListName {
+    width: 80%;
+    text-wrap: wrap;
+}
 
 /* About me styling */
 .aboutDiv {

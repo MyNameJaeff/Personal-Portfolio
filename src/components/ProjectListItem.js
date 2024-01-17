@@ -38,7 +38,7 @@ function ProjectListItem(props) {
     }
     if (props.number !== 0) {
         return (
-            <li onClick={handleClick} className={props.name + props.number}>{largeFirstLetter + " "}<span className="listItemNumber">{props.number}</span></li>
+            <li onClick={handleClick} className={props.name + props.number}><p className="projectListName">{largeFirstLetter + " "}</p><span className="listItemNumber">{props.number}</span></li>
         );
     } else {
         return (
