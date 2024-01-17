@@ -22,7 +22,7 @@ function ProjectListItem(props) {
 
             const project = document.querySelector(".project");
             project.style.width = "100%";
-            project.style.height = "90%";
+            project.style.height = "80%";
             project.style.padding = "5%";
             project.style.overflow = "scroll";
             project.style.flexDirection = "column";
