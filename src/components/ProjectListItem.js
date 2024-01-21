@@ -21,6 +21,7 @@ function ProjectListItem(props) {
             projectMonitor.style.alignItems = "start";
 
             const project = document.querySelector(".project");
+            project.scrollTop = 0;
             project.style.width = "100%";
             project.style.height = "80%";
             project.style.padding = "5%";
