@@ -7,7 +7,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <p id="phone">Please open on desktop</p>
-    <p id="phone2">for the best experience, as i yet have done the css for phone viewing!</p>
+    <p id="phone">for the best experience, as i yet have done the css for phone viewing!</p>
 
     <Main />
   </React.StrictMode>
