@@ -18,7 +18,7 @@ function Main() {
             <Analytics />
             <link href="https://fonts.cdnfonts.com/css/jetbrains-mono" rel="stylesheet"></link>
 
-            <NameAndTitle name="Fredrik Andersson" title="Student at NTI TE4" />
+            <NameAndTitle name="Fredrik Andersson" title="Fullstack developer ♡ .NET/JavaScript" />
             <div className="monitorButtons">
                 <MonitorButton id="about" text="about" />
                 <MonitorButton id="projects" text="projects" />
