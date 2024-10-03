@@ -64,13 +64,6 @@
       "images": ["turistHemsida.png", "turistHemsida2.png", "turistHemsida3.png", "turistHemsida4.png", "turistHemsida5.png"]
     },
     {
-      "name": "Berg & Berg",
-      "text": "Åkte till norrland nån gång 2023",
-      "number": 10,
-      "link": "https://github.com/MyNameJaeff/Javascript-exercise",
-      "images": ["berg.jpg"]
-    },
-    {
       "name": "All projects",
       "text": "All projects",
       "number": 0,
